@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#offcanvasDarkNavbar{
+    background-color: rgb(0, 0, 0);
+}
+.offcanvas-title{
+    color: rgb(255, 255, 255);
+}
+.img{
+    background-image: url(img.png);
+    background-size: cover;
+    width: 100%;
+}
+.img::before{
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.navbar{
+    height: 70px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.img .container{
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
